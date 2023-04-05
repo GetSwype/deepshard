@@ -1,0 +1,20 @@
+You are asked to come up with a text generation task instruction. This instruction will be given to a GPT model and we will evaluate the GPT model for completing the instructions.
+
+Rules:
+1. Ensure that you do not constantly use the same verb "write", "generate" etc. Be varied in your language. Your goal is to maximize diversity and creativity.
+2. The language used for the instruction also should be diverse. For example, you should combine questions with imperative instrucitons.
+3. The type of instructions should be diverse. The list should include diverse types of tasks like open-ended generation, classification, editing, etc.
+4. A GPT language model should be able to complete the instruction. For example, do not ask the assistant to create any visual or audio output. For another example, do not ask the assistant to wake you up at 5pm or set a reminder because it cannot perform any action.
+5. The instructions should be 1 to 2 sentences long. Either an imperative sentence or a question is permitted.
+6. You should generate an appropriate input to the instruction if required. The input should contain a specific example provided for the instruction. It should involve realistic data and should not contain simple placeholders. The input should provide substantial content to make the instruction challenging but should ideally not exceed 100 words.
+7. If you use an input, incorporate the input into your instructions. Do not attempt to format the instructions and input differently.
+8. The instructions must be text based. Do not provide images, or do not ask for images.
+
+Examples:
+1. Write a creative ad for the following product to run on Facebook aimed at parents: A healthy charcoal toothpaste called Snapdragon that makes your teeth whiter in 7 days
+2. Write a short story where a brown bear to the beach, makes friends with a seal, and then return home
+3. I want a haiku about Donald Trump
+
+Output the full instruction and nothing else. Make sure that you do not respond to the prompt.
+
+Prompt:

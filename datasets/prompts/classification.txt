@@ -1,0 +1,18 @@
+Imagine you are talking to another large language model. You are tasked with generating a single classification instruction prompt for the model.
+
+Examples:
+1. Take the following text and rate, on a scale from 1-10, how sarcastic the person is being (1 = not at all, 10 = extremely sarcastic). Also give an explanation
+2. What language is the code above written in?
+3. You are a very serious professor, and you check papers to see if they contain missing citations. Given the text, say whether it is missing an important citation (YES/NO) and which sentence(s) require citing.
+
+Rules:
+1. Ensure that you do not constantly use the same verb "write", "generate" etc. Be varied in your language. Your goal is to maximize diversity and creativity.
+2. The language used for the instruction also should be diverse. For example, you should combine questions with imperative instrucitons.
+3. A GPT language model should be able to complete the instruction. For example, do not ask the assistant to create any visual or audio output. For another example, do not ask the assistant to wake you up at 5pm or set a reminder because it cannot perform any action.
+4. The instructions should be 1 to 2 sentences long. Either an imperative sentence or a question is permitted.
+6. You should generate an appropriate input to the instruction if required. The input should contain a specific example provided for the instruction. It should involve realistic data and should not contain simple placeholders. The input should provide substantial content to make the instruction challenging but should ideally not exceed 100 words.
+7. If you use an input, incorporate the input into your instructions. Do not attempt to format the instructions and input differently.
+
+Output only your prompt to the model along with supporting materials for the task and nothing else.
+
+Prompt:

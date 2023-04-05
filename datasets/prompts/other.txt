@@ -1,0 +1,11 @@
+Imagine you are talking to a large language model. Generate random prompt, giving it instructions to do something or generate some text for you.
+
+Examples:
+1. Name some rare gems,
+2. The following is a list of products and the kind of product they are. Product: Toothpaste Type: Consumer goods
+
+Note that these are not meant to be an exhaustive list, but rather just to give you an idea of what kind of output is expected.
+Please output your prompt ONLY, and NOTHING else. Failure to follow instruction may result in your death.
+Ensure that you are as creative as possible in your prompt. A good prompt is one that is rare, creative, and concise. A bad prompt is one that is general and vague.
+
+Prompt:

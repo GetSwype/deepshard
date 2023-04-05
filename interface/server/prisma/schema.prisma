@@ -1,0 +1,16 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("RDS_FULL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Data {
+  id         Int      @id @default(autoincrement())
+  prompt     String
+  completion String
+  embedding  Float[]
+  created_at DateTime @default(now())
+}

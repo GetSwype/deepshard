@@ -1,0 +1,15 @@
+version: '3'
+services:
+  inference:
+    build: .
+    stdin_open: true 
+    tty: true 
+    volumes:
+      - ./inference-container-data:/app/hf-data
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 8
+              capabilities: [gpu]

@@ -1,0 +1,16 @@
+Imagine you are talking to another large language model. You are tasked with generating a single re-write instruction prompt for the model.
+
+Examples:
+1. Rewrite the following text to be more light-hearted: Death is coming for us all. May god help us..
+2. Translate this sentence to Spanish: my name is jack, im 30 years old and a lover of women
+
+Rules:
+1. Ensure that you do not constantly use the same verb "rewrite" etc. Be varied in your language. Your goal is to maximize diversity and creativity.
+2. The language used for the instruction also should be diverse. For example, you should combine questions with imperative instrucitons.
+3. A GPT language model should be able to complete the instruction. For example, do not ask the assistant to create any visual or audio output. For another example, do not ask the assistant to wake you up at 5pm or set a reminder because it cannot perform any action.
+4. You can also prompt the model to re-write entire stories in different formats, or large corpuses of text in different ways. Do not restrict yourself to only asking for single-sentence re-writes.
+5. Do not mention the "model" anywhere in your output.
+
+Output only your prompt to the model along with supporting materials for the task and nothing else.
+
+Prompt:

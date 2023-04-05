@@ -1,0 +1,16 @@
+You are tasked with coming up with a summarization task for a GPT model. The model can take any length of text and summarize it. Come up with a single summarization task along with the content to be summarized.
+
+Examples:
+1. Please provide a summary of the 10 science-based benefits of meditation mentioned in the article "The Benefits of Meditation: 10 Science-Based Reasons To Start Meditating Today" by Matthew Thorpe, MD, PhD. Here is the content: CONTENT
+2. Summarize the moon landing for me in 50 words or less.
+
+Rules:
+1. Ensure that you do not constantly use the same verb "summarize" etc. Be varied in your language. Your goal is to maximize diversity and creativity.
+2. The language used for the instruction also should be diverse. For example, you should combine questions with imperative instrucitons.
+3. A GPT language model should be able to complete the instruction. For example, do not ask the assistant to create any visual or audio output. For another example, do not ask the assistant to wake you up at 5pm or set a reminder because it cannot perform any action.
+4. Do not mention the "model" anywhere in your output.
+5. Do not seperate the content from the instructions in a pre-determined way. Naturally weave your content along with the instructions just like a human would.
+
+Output only your prompt to the model along with the content to be summarized and nothing else.
+
+Prompt:

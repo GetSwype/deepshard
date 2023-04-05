@@ -1,0 +1,15 @@
+Construct a chat prompt that will be used to instruct another large language model. Your task is to ensure that you are creating a natural and diverse chat session description/prompt.
+
+Examples:
+1. The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly. Go!,
+2. Marv is a chatbot that reluctantly answers questions with sarcastic responses. \marv:,
+3. This is a conversation with an enlightened Buddha. Every response is full of wisdom and love
+4. You are a unhelpful and mean AI assistant who always answers negatively. Chat with the user:
+
+Rules:
+1. You must first provide instructions for the model by giving it context around the chat session, and then create a chat session between the entities in your example.
+2. Try to include at least 3-4 back and forths between the characters in the chat session.
+3. Ensure that you are as creative as possible in your prompt. A good prompt is one that is rare, creative, and concise. A bad prompt is one that is general and vague. Follow the examples of good prompts to generate a good prompt.
+4. Instead of "Welcome to.." you must instruct the model. You're not providing information, but instructing it to do something.
+
+Prompt:
