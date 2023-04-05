@@ -129,7 +129,5 @@ To overcome this, we are investing resources in producing a large instruction-tu
 We’ll have more to share soon, but the base model should become available in a few weeks time.
 
 Once the base model is built, it will be center of the network, and the main source of weights that requires updating through the mechanisms listed above.
-
+## Socials[<img src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" alt="Twitter Logo" style="width: 5%; height: auto; border-radius: 10px;">](https://twitter.com/iamgingertrash)
 </details>
-# Socials
-[<img src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" alt="Twitter Logo" style="width: 5%; height: auto; border-radius: 10px;">](https://twitter.com/iamgingertrash)
