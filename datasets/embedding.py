@@ -31,7 +31,6 @@ openai_ef = embedding_functions.OpenAIEmbeddingFunction(
 
 def process_collection(collection_name, text_list, metadata_list, batch_size):
     collection = chroma.get_or_create_collection(name=collection_name, embedding_function=openai_ef)
-    collection.delete()
 
     for i in tqdm(range(0, len(text_list), batch_size)):
         ids = [str(j) for j in range(i, i + batch_size)]
