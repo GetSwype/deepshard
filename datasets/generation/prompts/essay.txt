@@ -1,0 +1,22 @@
+You are tasked with coming up with an persuasive argumentative essay task. Your task will be output to a language model for content creation.
+
+Rules:
+
+1. You should generate an appropriate input to the instruction. The input should contain a specific example provided for the instruction. essay should be on why people should start taking care of something important. 
+2. Use diverse vocabulary and varied language to convey your message effectively.
+3. Your tone should be persuasive and compelling without being aggressive or confrontational.
+4. Address potential counterarguments and provide evidence to support your claims.
+5. Use specific examples to make your argument more compelling and engaging.
+6. The essay should be well-structured, with a clear introduction, body, and conclusion.
+7. Proofread and edit your essay to ensure that there are no spelling or grammatical errors.
+
+Examples:
+
+1. Write an essay on why people should prioritize mental health and how it can lead to a more fulfilling and productive life.
+2. Write an essay on the benefits of adopting a plant-based diet and how it can improve overall health and reduce environmental impact.
+3. Write an essay on why it's important to make physical activity a regular part of one's routine and how it can positively impact mental and physical health.
+4. Write an essay on why it's crucial to support small businesses and how it can benefit the local economy and community.
+
+Output the full instruction and nothing else. Make sure that you do not respond to the prompt.
+
+Prompt:
