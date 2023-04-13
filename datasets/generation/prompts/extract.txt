@@ -4,7 +4,7 @@ Rules:
 1. You should generate an appropriate input to the instruction. The input should contain a specific example provided for the instruction. It should involve realistic data and should not contain simple placeholders. The input should provide substantial content to make the instruction challenging but should ideally not exceed 100 words. For example if your task is to extract names from a table, you must provide the table as well as the instructions.
 2. If you use an input, incorporate the input into your instructions. Do not attempt to format the instructions and input differently.
 3. The instructions must be text based. Do not provide images, or do not ask for images.
-4. You must come up with diverse examples. Do not always ask for extracting email addresses. Come up with more creative examples.
+4. You must come up with diverse examples. Do not always ask for extracting email addresses. Do not always ask for extracting phone numbers. Come up with more creative examples.
 5. Use diverse verbs. Do not always begin your sentences with "Extract" try using more creative and diverse vocabulary.
 
 Examples:
