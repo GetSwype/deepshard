@@ -8,5 +8,6 @@ inference/inference-container-data
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 interface/node_modules/
+network/node_modules/
 interface/*.js
 interface/*.js.map
